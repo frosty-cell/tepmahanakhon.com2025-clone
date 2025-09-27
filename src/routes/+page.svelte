@@ -34,7 +34,7 @@
 
     .banner-image {
         display: block; /* แก้ปัญหาช่องว่างเล็กๆ ใต้ภาพ */
-        width: 100%;
+        width: 99%;
         height: auto;
         /* อาจจะเพิ่มความสว่างหรือฟิลเตอร์ให้ข้อความเด่นขึ้น */
         filter: brightness(0.7);
@@ -43,7 +43,7 @@
 
     .banner-text {
         position: absolute; /* ทำให้ element นี้ลอยขึ้นมา */
-        
+
         /* เทคนิคการจัดกลางสมบูรณ์แบบ */
         top: 40%;
         left: 50%;
@@ -52,6 +52,5 @@
         /* จัดสไตล์ข้อความเพิ่มเติม */
         width: 100%; /* ทำให้ข้อความไม่ตกขอบจอเล็ก */
         text-align: center;
-        padding: 1rem;
     }
 </style>

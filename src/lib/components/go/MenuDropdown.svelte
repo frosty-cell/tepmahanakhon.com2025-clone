@@ -67,7 +67,9 @@
 				| {selectedItem.english}
 			{/if}
 		</span>
-		<span class="arrow" class:open={isOpen}></span>
+		<span class="arrow" class:open={isOpen}>
+            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24" class="sUazUmw"><path fill-rule="evenodd" d="M18.2546728,8.18171329 L18.9617796,8.88882007 L12.5952867,15.2537133 L12.5978964,15.2558012 L11.8907896,15.962908 L11.8882867,15.9607133 L11.8874628,15.9617796 L11.180356,15.2546728 L11.1812867,15.2527133 L4.81828671,8.88882007 L5.52539349,8.18171329 L11.8882867,14.5457133 L18.2546728,8.18171329 Z"></path></svg>
+        </span>
 	</button>
 
 	{#if isOpen}
@@ -106,30 +108,42 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		width: 100%;
-		background-color: #fff;
+		width: 105%;
+		background-color: transparent;
 		border: 1px solid #333;
-		padding: 1rem;
+		padding: 0.75rem;
 		cursor: pointer;
 		text-align: left;
         font-size: 1rem;
+        margin-left: -0.35rem;
 	}
 
-	.arrow {
+	/* .arrow {
 		width: 0;
 		height: 0;
 		border-left: 5px solid transparent;
 		border-right: 5px solid transparent;
 		border-top: 5px solid #333;
 		transition: transform 0.2s ease-in-out;
-	}
+	} */
+    .arrow {
+        display: flex; /* ช่วยจัด SVG ให้อยู่กลาง (ถ้าขนาดไม่พอดี) */
+        align-items: center;
+        transition: transform 0.2s ease-in-out; /* คง transition เดิมไว้ */
+    }
+    /* สไตล์ SVG ที่อยู่ใน .arrow */
+    .arrow :global(svg) {
+        width: 18px; /* ปรับขนาดตามต้องการ */
+        height: 18px;
+        fill: #333; /* กำหนดสีของลูกศร */
+    }
 	.arrow.open {
 		transform: rotate(180deg);
 	}
 
 	.select-items {
 		position: absolute;
-		background-color: #fff;
+		background-color: #F7F2EA;
 		top: 100%;
 		left: 0;
 		right: 0;
@@ -138,6 +152,8 @@
 		max-height: 250px;
 		overflow-y: auto;
 		z-index: 99;
+        width: 104.5%;
+        margin-left: -0.35rem;
 	}
 
 	.select-option {
@@ -156,5 +172,25 @@
 	.select-option.selected {
 		background-color: #e0e0e0;
 		font-weight: bold;
+	}
+
+    /* --- 🎨 SCROLLBAR STYLES --- */
+	/* Webkit browsers (Chrome, Safari, Edge) */
+	.select-items::-webkit-scrollbar {
+		width: 8px; /* ความกว้างของ scrollbar */
+	}
+
+	.select-items::-webkit-scrollbar-track {
+		background: #f1f1f1; /* สีพื้นหลังของ track */
+		border-radius: 10px;
+	}
+
+	.select-items::-webkit-scrollbar-thumb {
+		background: #c1c1c1; /* สีของตัว scrollbar */
+		border-radius: 10px;
+	}
+
+	.select-items::-webkit-scrollbar-thumb:hover {
+		background: #a8a8a8; /* สีเมื่อเอาเมาส์ไปชี้ */
 	}
 </style>
