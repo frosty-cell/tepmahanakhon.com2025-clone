@@ -131,6 +131,7 @@
 		border-radius: 2px;
 		position: absolute;
 		left: 10px;
+        
 		transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 	}
 	.hamburger-line:nth-child(1) {
@@ -142,13 +143,13 @@
 
 	/* --- Active State for Animation --- */
 	.hamburger-button.active .hamburger-line:nth-child(1) {
-		transform: translateY(0) rotate(45deg);
+		transform: translateY(0) rotate(-45deg);
 	}
 	.hamburger-button.active .hamburger-line:nth-child(2) {
 		opacity: 0;
 	}
 	.hamburger-button.active .hamburger-line:nth-child(3) {
-		transform: translateY(0) rotate(-45deg);
+		transform: translateY(0) rotate(45deg);
 	}
 
 	/* --- Mobile Menu Overlay --- */
