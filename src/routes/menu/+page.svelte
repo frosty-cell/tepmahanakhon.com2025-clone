@@ -861,7 +861,7 @@
 
 <main style="place-self: center; padding: 1rem 0 1rem;">
     <section>
-        <h2 style="text-align: center; font-weight: 100;">Welcome to Tep Bar — Thailand’s Cultural Bar.</h2>
+        <h2 style="text-align: center; font-weight: 100; font-size: 20px; margin: 10px 0;">Welcome to Tep Bar — Thailand’s Cultural Bar.</h2>
         <div class="context-box">
             <p>Business hours: 18:00–00:00 <br> Live music: 20:00–23:15 daily</p>
         </div>

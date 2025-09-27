@@ -11,7 +11,7 @@
         </div>
     </div>
     <div class="header-section2">
-        <hr style="margin: 1rem 5rem 0.75rem;">
+        <hr style="margin: 1rem 5rem 0.45rem;">
         <div class="navbar">
             <a href="/">
                 <div>Home</div>
@@ -49,5 +49,9 @@
     }
     .navbar a:hover {
         color: #333;
+    }
+
+    .navbar a div, .navbar div  {
+        font-size: 14px;
     }
 </style>
