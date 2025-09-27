@@ -59,7 +59,7 @@
 
 <main>
     <section>
-        <h1 style="font-size: 40px; place-self: center;">Traditional Thai Music Experience at TEP BAR</h1>
+        <h1 class="livebrands-h1">Traditional Thai Music Experience at TEP BAR</h1>
         <a class="schedules-link" href="https://docs.google.com/spreadsheets/d/1enhGqS83lMKS0YqOF1N6Y8UOqAL4jvMxtTXqfTyPIfY/edit?gid=296304222#gid=296304222">
             <p class="schedules">
                 Live Schedules!
@@ -100,6 +100,11 @@
 <style>
     main {
         margin-bottom: 2rem;
+    }
+
+    .livebrands-h1 {
+        font-size: 40px; 
+        place-self: center;
     }
 
     .schedules-link {
@@ -165,6 +170,16 @@
     @media (max-width: 1024px) {
         .bands-container {
             grid-template-columns: repeat(2, 1fr); /* 👈 จอเล็กกว่า 1024px: 2 คอลัมน์ */
+        }
+    }
+
+    @media (max-width: 768px) {
+        .livebrands-h1 {
+            font-size: 19px; 
+            text-align: center;
+            width: 250px;
+            line-height: 1rem;
+            margin-bottom: 2rem;
         }
     }
 

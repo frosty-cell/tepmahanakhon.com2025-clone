@@ -1114,4 +1114,13 @@
         place-self: center;
         text-align: center;
     }
+
+    @media (max-width: 768px) {
+        .menu-container {
+            grid-template-columns: 1fr; /* 👈 ยังคงเป็น 1 คอลัมน์ */
+            width: 90%; /* 👈 กำหนดความกว้างของ container ให้เล็กลง (เช่น 90% ของหน้าจอ) */
+            max-width: 250px; /* 👈 (แนะนำ) กำหนดความกว้างสูงสุดเพื่อไม่ให้ใหญ่เกินไป */
+            margin: 0 auto; /* 👈 จัด container ให้อยู่กึ่งกลาง */
+        }
+    }
 </style>

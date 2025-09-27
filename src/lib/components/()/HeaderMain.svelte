@@ -15,7 +15,7 @@
 		<a href="/" class="logo-link">
 			<div class="logo-wrapper">
 				<img src="/images/logo/tepbar-logo.png" alt="tepbar logo" />
-				<h2>TEP BAR</h2>
+				<h2 class="tepbar-header-logo">TEP BAR</h2>
 			</div>
 		</a>
 		<div class="tagline-wrapper">
@@ -28,9 +28,9 @@
 		<nav class="desktop-nav">
 			<a href="/">Home</a>
 			<a href="/menu">Menu</a>
-			<a href="/reservation" style="cursor: pointer;">Reservation</a>
+			<a href="#top" style="cursor: pointer;">Reservation</a>
 			<a href="/live-brands">Live Brands</a>
-			<a href="/vat-request" style="cursor: pointer;">VAT Receipt Request</a>
+			<a href="#top" style="cursor: pointer;">VAT Receipt Request</a>
 		</nav>
 
 		<button
@@ -51,9 +51,9 @@
 		<nav class="mobile-nav">
 			<a href="/" onclick={toggleMenu}>Home</a>
 			<a href="/menu" onclick={toggleMenu}>Menu</a>
-			<a href="/reservation" onclick={toggleMenu}>Reservation</a>
+			<a href="#top" onclick={toggleMenu}>Reservation</a>
 			<a href="/live-brands" onclick={toggleMenu}>Live Brands</a>
-			<a href="/vat-request" onclick={toggleMenu}>VAT Receipt Request</a>
+			<a href="#top" onclick={toggleMenu}>VAT Receipt Request</a>
 		</nav>
 	</div>
 {/if}
@@ -76,7 +76,7 @@
 	.logo-wrapper img {
 		width: 120px;
 	}
-	.logo-wrapper h2 {
+	.tepbar-header-logo {
 		font-size: 1.75rem;
 		font-weight: bolder;
 		padding-bottom: 5px;
@@ -194,6 +194,13 @@
 		hr {
 			display: none;
 		}
+        .tepbar-header-logo {
+            font-size: 1rem;
+        }
+
+        .tagline-wrapper p {
+            font-size: 10px;
+        }
 	}
 </style>
 <!-- <script lang="ts">
