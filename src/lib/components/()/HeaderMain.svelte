@@ -1,3 +1,4 @@
+<!-- SvelteKit(Svelte5): $lib/components/()/HeaderMain.svelte -->
 <header>
     <div class="header-section1">
         <a href="/" style="text-decoration: none;">
