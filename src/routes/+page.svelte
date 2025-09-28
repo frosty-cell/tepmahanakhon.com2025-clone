@@ -48,7 +48,7 @@
 
     .banner-image {
         display: block; /* แก้ปัญหาช่องว่างเล็กๆ ใต้ภาพ */
-        width: 99%;
+        width: 100%;
         height: auto;
         /* อาจจะเพิ่มความสว่างหรือฟิลเตอร์ให้ข้อความเด่นขึ้น */
         filter: brightness(0.7);
