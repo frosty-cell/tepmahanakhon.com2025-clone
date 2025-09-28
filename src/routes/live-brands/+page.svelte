@@ -76,8 +76,8 @@
         </div>
     </section>
     <section style="margin-top: 3rem;">
-        <div>
-            <h2 class="brands-header">Meet The Bands</h2>
+        <div class="brands-header">
+            <h2>Meet The Bands</h2>
             <div style="width: 31px; place-self: center; height: 3px; background-color: #000; border-radius: 1rem; margin: 1rem 1rem 2rem ;"></div>
 
         </div>
@@ -146,11 +146,14 @@
 	}
 
     .brands-header {
-        font-size: 38px; font-weight: 400; place-self: center;
+        place-self: center;
         width: 100%;
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+    .brands-header h2 {
+        font-size: 38px; font-weight: 400; 
     }
 
     /* /-------------------------- */
@@ -203,7 +206,7 @@
             margin-bottom: 2rem;
         }
 
-        .brands-header {
+        .brands-header h2{
             font-size: 24px;
         }
 
