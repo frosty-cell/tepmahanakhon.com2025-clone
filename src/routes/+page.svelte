@@ -11,14 +11,17 @@
 </main> -->
 
 <svelte:head>
-    <link rel="preload" href="https://fonts.gstatic.com/s/sarabun/v17/DtVmJx26T-Q8ChqK-3zTf1k.woff2" as="font" type="font/woff2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400&display=swap" rel="stylesheet">
     <title>[Clone] Home | TEP BAR</title>
     <meta name="description" content="Experience the essence of Thai culture through music, cocktails, and ambiance. TEP BAR(เทพบาร์) — Thailand's only Cultural Bar, established in 2015." />
 </svelte:head>
 
 <main>
     <div class="banner-container">
-        <img src="/images/banner/homepage.avif" alt="บรรยากาศภายในร้านเทพ บาร์" class="banner-image" fetchpriority=high width="100%" height="70%">
+        <img src="/images/banner/homepage.avif" alt="บรรยากาศภายในร้านเทพ บาร์" class="banner-image" fetchpriority=high width="1800" height="1200">
         <!-- <img
             src="/images/banner/homepage-1200w.avif"
             srcset="/images/banner/homepage-480w.avif 480w,
