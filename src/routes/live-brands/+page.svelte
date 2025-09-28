@@ -76,8 +76,11 @@
         </div>
     </section>
     <section style="margin-top: 3rem;">
-        <h2 style="font-size: 38px; font-weight: 400; place-self: center;">Meet The Bands</h2>
-        <div style="width: 31px; place-self: center; height: 3px; background-color: #000; border-radius: 1rem; margin: 1rem 1rem 2rem ;"></div>
+        <div class="brands-header">
+            <h2>Meet The Bands</h2>
+            <div style="width: 31px; place-self: center; height: 3px; background-color: #000; border-radius: 1rem; margin: 1rem 1rem 2rem ;"></div>
+
+        </div>
         <div class="bands-container">
             {#each bands as band}
                 <div class="band-card">
@@ -137,6 +140,14 @@
 		}
 	}
 
+    .brands-header {
+        font-size: 38px; font-weight: 400; place-self: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
     /* /-------------------------- */
     .livebrands-description {
         margin: 2px;
@@ -185,6 +196,10 @@
             width: 250px;
             line-height: 1rem;
             margin-bottom: 2rem;
+        }
+
+        .brands-header {
+            font-size: 24px;
         }
     }
 
