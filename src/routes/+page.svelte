@@ -48,6 +48,7 @@
 
     .banner-image {
         display: block; /* แก้ปัญหาช่องว่างเล็กๆ ใต้ภาพ */
+        place-self: center;
         width: 99%;
         height: auto;
         /* อาจจะเพิ่มความสว่างหรือฟิลเตอร์ให้ข้อความเด่นขึ้น */
@@ -68,9 +69,9 @@
         text-align: center;
     }
 
-    @media (max-width: 768px) {
+    /* @media (max-width: 768px) {
         .banner-image {
             width: 100%;
         }
-    }
+    } */
 </style>
