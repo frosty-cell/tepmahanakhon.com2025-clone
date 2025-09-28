@@ -123,6 +123,9 @@
 
     .schedules {
         place-self: center; color: #221F7B; font-size: 16px; letter-spacing: 0.15em; font-weight: 700; 
+        width: 100%;
+        display: flex;
+        justify-content: center;
         /* --- เพิ่มบรรทัดนี้เพื่อเรียกใช้ animation --- */
         animation: blinking-fade 2s infinite;
     }
