@@ -9,7 +9,30 @@
 
 <main>
     <div class="banner-container">
-        <img src="/images/banner/homepage.avif" alt="บรรยากาศภายในร้านเทพ บาร์" class="banner-image" fetchpriority=high width="1800" height="1200">
+        <!-- <img 
+            src="/images/banner/homepage.avif" 
+            srcset="/images/banner/homepage-mobile.avif 600w,/images/banner/homepage.avif 1800w" 
+            sizes="100vw"
+            alt="บรรยากาศภายในร้านเทพ บาร์" 
+            class="banner-image" 
+            fetchpriority=high 
+            width="1800" 
+            height="1200"
+        > -->
+        <picture>
+            <source media="(max-width: 768px)" srcset="/images/banner/homepage-mobile.avif">
+            
+            <source media="(min-width: 769px)" srcset="/images/banner/homepage.avif">
+            
+            <img 
+                src="/images/banner/homepage.avif" 
+                alt="บรรยากาศภายในร้านเทพ บาร์" 
+                class="banner-image" 
+                fetchpriority="high" 
+                width="1800" 
+                height="1200"
+            >
+        </picture>
 
         <div class="banner-text">
             <h2 style="font-size: 2.5rem; padding: 1rem 0; font-weight: 300;">WELCOME TO TEP BAR</h2>
@@ -50,7 +73,7 @@
         height: auto;
         /* อาจจะเพิ่มความสว่างหรือฟิลเตอร์ให้ข้อความเด่นขึ้น */
         filter: brightness(0.7);
-        height: 70%;
+        /* height: 70%; */
     }
 
     .banner-text {
@@ -69,6 +92,10 @@
     @media (max-width: 768px) {
         .banner-image {
             width: 100%;
+        }
+
+        .banner-image {
+            height: auto;
         }
     }
 </style>

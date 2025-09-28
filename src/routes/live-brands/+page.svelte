@@ -58,7 +58,7 @@
 </svelte:head>
 
 <main>
-    <section>
+    <section style="width: 100%; display: flex; flex-direction: column; justify-content: center;">
         <h1 class="livebrands-h1">Traditional Thai Music Experience at TEP BAR</h1>
         <a class="schedules-link" href="https://docs.google.com/spreadsheets/d/1enhGqS83lMKS0YqOF1N6Y8UOqAL4jvMxtTXqfTyPIfY/edit?gid=296304222#gid=296304222">
             <p class="schedules">
