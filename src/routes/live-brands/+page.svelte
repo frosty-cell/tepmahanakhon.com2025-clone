@@ -126,6 +126,8 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        justify-self: center;
+        align-items: center;
         /* --- เพิ่มบรรทัดนี้เพื่อเรียกใช้ animation --- */
         animation: blinking-fade 2s infinite;
     }
