@@ -12,19 +12,24 @@
 
 <svelte:head>
     <title>[Clone] Home | TEP BAR</title>
-    <meta name="description" content="Experience the essence of Thai culture through music, cocktails, and ambiance. TEP BAR(เทพบาร์) — Thailand's only Cultural Bar, established in 2015." />
-    <link rel="preload" href="/_app/immutable/assets/Sarabun-Regular.56cf893c.woff2" as="font" type="font/woff2">
 </svelte:head>
 
 <main>
     <div class="banner-container">
-        <img srcset="/images/banner/homepage-480w.avif 480w,
-          /images/banner/homepage-800w.avif 800w,
-          /images/banner/homepage-1200w.avif 1200w"
-            sizes="(max-width: 600px) 480px,
-         (max-width: 900px) 800px,
-         1200px"
-        src="/images/banner/homepage.avif" alt="บรรยากาศภายในร้านเทพ บาร์" class="banner-image" fetchpriority=high>
+        <!-- <img src="/images/banner/homepage.avif" alt="บรรยากาศภายในร้านเทพ บาร์" class="banner-image" fetchpriority=high> -->
+        <img
+            src="/images/banner/homepage-1200w.avif"
+            srcset="/images/banner/homepage-480w.avif 480w,
+                    /images/banner/homepage-800w.avif 800w,
+                    /images/banner/homepage-1200w.avif 1200w,
+                    /images/banner/homepage-1800w.avif 1800w"
+            sizes="100vw"
+            alt="บรรยากาศภายในร้านเทพ บาร์"
+            class="banner-image"
+            fetchpriority="high"
+            width="1800"
+            height="1850"
+        />
 
         <div class="banner-text">
             <h2 style="font-size: 2.5rem; padding: 1rem; font-weight: 300;">WELCOME TO TEP BAR</h2>
