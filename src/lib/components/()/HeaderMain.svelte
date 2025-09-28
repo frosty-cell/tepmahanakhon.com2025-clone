@@ -64,7 +64,7 @@
 		flex-direction: column;
 		justify-content: center;
 		width: 100%;
-		margin: 3rem 0 1rem;
+		padding: 3rem 0 1rem;
 	}
 	.header-logo-section {
 		text-align: center;
