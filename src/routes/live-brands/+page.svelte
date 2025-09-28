@@ -76,8 +76,8 @@
         </div>
     </section>
     <section style="margin-top: 3rem;">
-        <div class="brands-header">
-            <h2>Meet The Bands</h2>
+        <div>
+            <h2 class="brands-header">Meet The Bands</h2>
             <div style="width: 31px; place-self: center; height: 3px; background-color: #000; border-radius: 1rem; margin: 1rem 1rem 2rem ;"></div>
 
         </div>
@@ -200,6 +200,10 @@
 
         .brands-header {
             font-size: 24px;
+        }
+
+        .livebrands-description {
+            padding: 0 1rem 1rem;
         }
     }
 
