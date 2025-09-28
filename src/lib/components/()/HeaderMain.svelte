@@ -14,7 +14,7 @@
 	<div class="header-logo-section">
 		<a href="/" class="logo-link">
 			<div class="logo-wrapper">
-				<img src="/images/logo/tepbar-logo.png" alt="tepbar logo" />
+				<img src="/images/logo/tepbar-logo.png" alt="tepbar logo" width="120" height="120"/>
 				<h2 class="tepbar-header-logo">TEP BAR</h2>
 			</div>
 		</a>

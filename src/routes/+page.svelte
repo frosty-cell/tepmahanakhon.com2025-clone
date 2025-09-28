@@ -13,6 +13,7 @@
 <svelte:head>
     <title>[Clone] Home | TEP BAR</title>
     <meta name="description" content="Experience the essence of Thai culture through music, cocktails, and ambiance. TEP BAR(เทพบาร์) — Thailand's only Cultural Bar, established in 2015." />
+    <link rel="preload" href="/_app/immutable/assets/Sarabun-Regular.56cf893c.woff2" as="font" type="font/woff2">
 </svelte:head>
 
 <main>
