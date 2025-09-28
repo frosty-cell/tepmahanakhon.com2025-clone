@@ -901,76 +901,7 @@
 		{/if}
         <hr>
 	{/if}
-
-    <!-- <div class="menu-container">
-        <div class="menu-card">
-            <img src="/images/menu/1/STARTERS - Tod Mun Pla Too.png" alt="ทอดมันปลาทูเทพฯ">
-            <div>
-                <h5>★ ทอดมันปลาทูเทพฯ | Tod Mun Pla Too</h5>
-                <p>เนื้อปลาทูสดตำในครกหินกับพริกแกงเผ็ดใต้ทอดกรอบๆบนใบโหระพา | Thai Mackerel crispy cake</p>
-            </div>
-            <p>฿260</p>
-        </div>
-        <div class="menu-card">
-            <img src="/images/menu/1/STARTERS - Pla Pla Tu.png" alt="พล่าปลาทูใบชะพลู">
-            <div>
-                <h5>★ พล่าปลาทูใบชะพลู | Pla Pla Tu</h5>
-                <p>ปลาทูย่างหอมพล่ากับสมุนไพรรสจัด | Thai Mackerel spicy salad</p>
-            </div>
-            <p>฿210</p>
-        </div>
-        <div class="menu-card">
-            <img src="/images/menu/1/STARTERS - Kung Chae Nam Pla.png" alt="กุ้งแช่น้ำปลาหอม">
-            <div>
-                <h5>★ กุ้งแช่น้ำปลาหอม | Kung Chae Nam Pla</h5>
-                <p>กุ้งสดพอดีคำโตหมักน้ำปลาหอมรสดีกับซอสพริกขี้หนูสวน | shrimp with spicy fish sauce</p>
-            </div>
-            <p>฿210</p>
-        </div>
-
-        <div class="menu-card">
-            <img src="/images/menu/1/STARTERS - Koh Gai Krabok.png" alt="กุ้งแช่น้ำปลาหอม">
-            <div>
-                <h5>★ ข้อไก่กระบอก | Koh Gai Krabok</h5>
-                <p>ข้อไก่ทอดหมักเครื่องเทศรสทางใต้ | deep fried chicken cartilage soaked in spicy sauce</p>
-            </div>
-            <p>฿230</p>
-        </div>
-    </div> -->
-
-    <!-- Hot -->
-    <!-- <div>
-        <svg xmlns="http://www.w3.org/2000/svg" data-bbox="3 2.03 17.988 18.96" viewBox="0 0 24 24" height="24" width="24" data-type="shape" class="injected-svg" data-src="https://static.wixstatic.com/shapes/ec845c_4f5504ceb3f84cd18f72f779dcad9078.svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img"><title>Hot</title>
-            <g>
-                <path d="M19.854 10.66c-.13-.09-.27-.16-.42-.22.32-.97.68-2.83-.16-5.09l-.94.35c.26.69.38 1.34.43 1.93l-.02 1.18c-.06.59-.18 1.08-.29 1.4-.1-.02-.2-.02-.3 0 .28-1.68-.5-2.5-1.07-2.87-.13-.09-.27-.16-.41-.22.32-.97.68-2.83-.16-5.09l-.94.35c.77 2.05.38 3.73.12 4.51-.39-.04-.78 0-1.16.12-.81.27-1.43.87-1.74 1.7v.02c-.08.22-1.95 5.51-8.92 6.45-.47.07-.83.45-.87.93-.04.47.23.89.68 1.04 1.08.35 2.23.51 3.39.51 1.38 0 2.78-.23 4.09-.66-1.19.69-2.68 1.26-4.52 1.51-.48.07-.84.45-.88.93-.04.47.23.89.68 1.04 1.08.34 2.23.51 3.39.51 4.54 0 9.26-2.49 10.71-6.1 1.04-2.61.02-3.76-.68-4.22l-.01-.01Zm-.25 3.84c-1.61 4.02-8.1 6.55-12.84 4.99 4.22-.57 6.73-2.63 8.14-4.39 1.1-1.38 1.53-2.56 1.59-2.72.26-.69.75-.98 1.12-1.1.09-.03.19-.05.28-.06.49-.09 1.01.01 1.41.28.99.64.71 1.99.3 3Zm-15.6 1.67c7.51-1.03 9.6-6.75 9.72-7.12.27-.69.76-.98 1.12-1.1.56-.18 1.22-.1 1.7.22.76.49.77 1.4.55 2.25-.72.29-1.26.85-1.54 1.61 0 0-.01.01-.01.02 0 .03-.37 1.06-1.34 2.3-2.76 2-6.9 2.9-10.2 1.82Z"></path>
-            </g>
-        </svg>
-    </div> -->
-    <!-- Mild -->
-    <!-- <div>
-        <svg xmlns="http://www.w3.org/2000/svg" data-bbox="2.996 2.52 17.001 17.49" viewBox="0 0 24 24" height="24" width="24" data-type="shape" class="injected-svg" data-src="https://static.wixstatic.com/shapes/ec845c_f896174167cb464bab2989f8ca4a0091.svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img"><title>Mild</title>
-            <g>
-                <path d="M18.76 8.52c-.16-.1-.33-.18-.51-.25.36-1.06.8-3.17-.16-5.75l-.94.35c.88 2.36.42 4.3.12 5.16-.45-.04-.9 0-1.33.13-.89.29-1.58.95-1.93 1.87v.02c-.09.25-2.2 6.23-10.08 7.3-.5.07-.89.47-.93.98-.04.51.25.95.73 1.11 1.21.39 2.49.57 3.79.57 5.08 0 10.36-2.79 11.98-6.82 1.16-2.88.03-4.16-.75-4.67h.01Zm-.18 4.29C16.76 17.36 9.42 20.22 4 18.42c0-.07.05-.08.07-.08 8.42-1.14 10.75-7.56 10.89-7.97.31-.8.88-1.13 1.3-1.27.65-.21 1.4-.12 1.96.25 1.15.75.83 2.29.36 3.46Z"></path>
-            </g>
-        </svg>
-    </div> -->
-    <!-- Organic -->
-    <!-- <div>
-        <svg xmlns="http://www.w3.org/2000/svg" data-bbox="3.5 3.5 17 17" viewBox="0 0 24 24" height="24" width="24" data-type="shape" class="injected-svg" data-src="https://static.wixstatic.com/shapes/ec845c_c71eb466f2ef4f35b8f47f151f439bd7.svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img"><title>Organic</title>
-            <g>
-                <path d="M12.5 3.5h-1v2h1v-2Zm0 17v-2h-1v2h1ZM5.639 6.378l.707-.707L7.76 7.085l-.707.707-1.414-1.414Zm11.307 9.893-.707.707 1.415 1.414.707-.707-1.415-1.414ZM3.5 11.5h2v1h-2v-1Zm17 0h-2v1h2v-1ZM6.341 18.387l-.707-.707 1.414-1.414.707.707-1.414 1.414ZM17.658 5.675 16.244 7.09l.707.708 1.414-1.415-.707-.707ZM7.5 12c0-2.48 2.02-4.5 4.5-4.5s4.5 2.02 4.5 4.5-2.02 4.5-4.5 4.5-4.5-2.02-4.5-4.5Zm1 0c0 1.93 1.57 3.5 3.5 3.5s3.5-1.57 3.5-3.5-1.57-3.5-3.5-3.5-3.5 1.57-3.5 3.5Z" clip-rule="evenodd" fill-rule="evenodd"></path>
-            </g>
-        </svg>
-    </div> -->
-    <!-- Vegan -->
-    <!-- <div>
-         <svg xmlns="http://www.w3.org/2000/svg" data-bbox="4 3.007 15.996 17.993" viewBox="0 0 24 24" height="24" width="24" data-type="shape" class="injected-svg" data-src="https://static.wixstatic.com/shapes/ec845c_2306a227a54044a9999b9f5e5fdf2185.svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img"><title>Vegan</title>
-            <g>
-                <path d="M19.59 5.75a.504.504 0 0 0-.34-.34c-2.68-.77-5.52-.42-7.9.89-.65-1.4-1.72-2.55-3.13-3.24a.487.487 0 0 0-.44 0A6.722 6.722 0 0 0 4 9.12c0 1.84.77 3.6 2.1 4.87-.17 1.3-.09 2.65.24 3.96L4 20.29l.71.71 2.34-2.34c.85.22 1.72.34 2.58.34 2.71 0 5.36-1.06 7.33-3.03a10.4 10.4 0 0 0 2.63-10.22ZM5 9.12C5 7 6.14 5.09 8 4.07c1.12.61 2 1.61 2.51 2.77-.52.36-1.02.74-1.47 1.2a10.44 10.44 0 0 0-2.71 4.74A5.716 5.716 0 0 1 5 9.12Zm11.26 6.14c-2.2 2.2-5.34 3.13-8.36 2.56l5.66-5.66-.71-.71-5.67 5.67c-.57-3.03.35-6.17 2.56-8.37a9.35 9.35 0 0 1 8.96-2.44c.82 3.21-.1 6.62-2.44 8.96v-.01Z"></path>
-            </g>
-        </svg>
-    </div> -->
-
+	
 	{#each groupItems(displayedItems) as [type, itemsInGroup], groupIndex}
 		{@const showTitle = !EXCLUDED_GROUP_TITLES.includes(type)}
 		{@const showDivider = groupIndex > 0}
@@ -1020,21 +951,7 @@
 			{/each}
 		</div>
 	{/each}
-    <!-- <div class="menu-container">
-		{#each displayedItems as item}
-			<div class="menu-card">
-                <div>
-                    <img src={item.image} alt={item.name_th} />
-                    <h5 style="font-size: 18px; font-weight: 100;">★ {item.name_th} | {item.name_en}</h5>
-                </div>
-				<div>
-					<p style="font-size: 15px;">{item.description}</p>
-				</div>
-				<p style="font-size: 18px;">฿{item.price}</p>
-			</div>
-		{/each}
-	</div> -->
-    
+
 </main>
 
 <style>
@@ -1055,14 +972,10 @@
     .menu-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr); /* 3 คอลัมน์ กว้างเท่ากัน */
-        /* padding: 0.5rem; */
         width: 750px;
         font-weight: 200;
     }
     .menu-card {
-        /* border: 1px solid #eee; */
-        /* box-shadow: 0 2px 4px rgba(0,0,0,0.05); */
-        
         border-radius: 8px;
         padding: 0.51rem;
         text-align: center;
@@ -1089,14 +1002,12 @@
 
     .group-title {
 		font-weight: 200;
-		/* color: #555; */
         margin-bottom: 1rem; /* ระยะห่างใต้หัวข้อ */
 	}
 
 	.group-divider {
 		border: none;
 		border-top: 1px solid #333;
-		/* width: 80%; */
         margin: 1rem auto 1rem; /* จัดกลางและกำหนดระยะห่าง */
 	}
 

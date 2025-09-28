@@ -1,15 +1,3 @@
-<!-- <h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p> -->
-<!-- <main>
-    <div>
-        <img src="/images/banner/homepage.png" alt="" style="object-fit: cover; max-width: 100%;">
-        <div style="place-self: center; text-align: center;">
-            <h2 style="font-size: 2rem; padding: 1rem; font-weight: 300;">WELCOME TO TEP BAR</h2>
-            <p>The Cultural Bar | Since 2015</p>
-        </div>
-    </div>
-</main> -->
-
 <svelte:head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,19 +10,6 @@
 <main>
     <div class="banner-container">
         <img src="/images/banner/homepage.avif" alt="บรรยากาศภายในร้านเทพ บาร์" class="banner-image" fetchpriority=high width="1800" height="1200">
-        <!-- <img
-            src="/images/banner/homepage-1200w.avif"
-            srcset="/images/banner/homepage-480w.avif 480w,
-                    /images/banner/homepage-800w.avif 800w,
-                    /images/banner/homepage-1200w.avif 1200w,
-                    /images/banner/homepage-1800w.avif 1800w"
-            sizes="100vw"
-            alt="บรรยากาศภายในร้านเทพ บาร์"
-            class="banner-image"
-            fetchpriority="high"
-            width="1800"
-            height="1850"
-        /> -->
 
         <div class="banner-text">
             <h2 style="font-size: 2.5rem; padding: 1rem 0; font-weight: 300;">WELCOME TO TEP BAR</h2>
