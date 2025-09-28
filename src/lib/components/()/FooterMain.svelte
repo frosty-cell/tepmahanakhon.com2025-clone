@@ -10,4 +10,9 @@
     border-top-style: solid;
     border-top-color: rgba(0, 0, 0, 0.08); /* สีดำ ที่มีความทึบแสงแค่ 15% */
   }
+
+  footer p {
+    width: 100%;
+    text-align: center;
+  }
 </style>
