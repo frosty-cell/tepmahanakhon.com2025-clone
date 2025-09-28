@@ -17,7 +17,13 @@
 
 <main>
     <div class="banner-container">
-        <img src="/images/banner/homepage.avif" alt="บรรยากาศภายในร้านเทพ บาร์" class="banner-image" fetchpriority=high>
+        <img srcset="/images/banner/homepage-480w.avif 480w,
+          /images/banner/homepage-800w.avif 800w,
+          /images/banner/homepage-1200w.avif 1200w"
+            sizes="(max-width: 600px) 480px,
+         (max-width: 900px) 800px,
+         1200px"
+        src="/images/banner/homepage.avif" alt="บรรยากาศภายในร้านเทพ บาร์" class="banner-image" fetchpriority=high>
 
         <div class="banner-text">
             <h2 style="font-size: 2.5rem; padding: 1rem; font-weight: 300;">WELCOME TO TEP BAR</h2>
