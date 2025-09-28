@@ -11,13 +11,14 @@
 </main> -->
 
 <svelte:head>
+    <link rel="preload" href="https://fonts.gstatic.com/s/sarabun/v17/DtVmJx26T-Q8ChqK-3zTf1k.woff2" as="font" type="font/woff2">
     <title>[Clone] Home | TEP BAR</title>
     <meta name="description" content="Experience the essence of Thai culture through music, cocktails, and ambiance. TEP BAR(เทพบาร์) — Thailand's only Cultural Bar, established in 2015." />
 </svelte:head>
 
 <main>
     <div class="banner-container">
-        <img src="/images/banner/homepage.avif" alt="บรรยากาศภายในร้านเทพ บาร์" class="banner-image" fetchpriority=high width="100%" height="70%";>
+        <img src="/images/banner/homepage.avif" alt="บรรยากาศภายในร้านเทพ บาร์" class="banner-image" fetchpriority=high width="100%" height="70%">
         <!-- <img
             src="/images/banner/homepage-1200w.avif"
             srcset="/images/banner/homepage-480w.avif 480w,
@@ -40,6 +41,24 @@
 </main>
 
 <style>
+    /* 1. สร้างฟอนต์สำรองชื่อ 'Sarabun Fallback' โดยใช้ฟอนต์ Arial ที่มีในเครื่อง */
+    @font-face {
+        font-family: 'Sarabun Fallback';
+        src: local('Arial'); /* หรือฟอนต์พื้นฐานอื่นๆ */
+        /* ค่าเหล่านี้ต้องคำนวณมาเพื่อให้พอดีกับฟอนต์ Sarabun */
+    }
+
+    /* 2. ใน CSS ของ banner-text ให้อ้างอิงถึงฟอนต์สำรองนี้ */
+    .banner-text {
+        /* ให้ Browser ลองใช้ Sarabun ก่อน, ถ้ายังไม่มีให้ใช้ Sarabun Fallback ที่เราสร้าง, ถ้าไม่มีอีกก็ใช้ sans-serif ทั่วไป */
+        font-family: 'Sarabun', 'Sarabun Fallback', sans-serif;
+    }
+
+    h2 {
+        font-family: 'Sarabun', 'Sarabun Fallback', sans-serif;
+    }
+
+
     .banner-container {
         position: relative; /* สร้างขอบเขตให้ element ลูกที่ "position: absolute" มาอ้างอิง */
         width: 100%;
