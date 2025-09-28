@@ -17,7 +17,7 @@
 
 <main>
     <div class="banner-container">
-        <img src="/images/banner/homepage.avif" alt="บรรยากาศภายในร้านเทพ บาร์" class="banner-image" fetchpriority=high>
+        <img src="/images/banner/homepage.avif" alt="บรรยากาศภายในร้านเทพ บาร์" class="banner-image" fetchpriority=high width="100%" height="70%";>
         <!-- <img
             src="/images/banner/homepage-1200w.avif"
             srcset="/images/banner/homepage-480w.avif 480w,
@@ -69,9 +69,9 @@
         text-align: center;
     }
 
-    /* @media (max-width: 768px) {
+    @media (max-width: 768px) {
         .banner-image {
             width: 100%;
         }
-    } */
+    }
 </style>
