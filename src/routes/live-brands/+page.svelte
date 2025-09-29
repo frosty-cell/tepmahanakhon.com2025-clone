@@ -130,7 +130,10 @@
         text-decoration: none;
     }
 
-    .schedules-link:hover { text-decoration: underline #221F7B; }
+    .schedules-link:hover { 
+        text-decoration: underline;
+        text-decoration-color: #221F7B;  /* 🎨 */
+    }
 
     .schedules {
         place-self: center; color: #221F7B; font-size: 16px; letter-spacing: 0.15em; font-weight: 700; 

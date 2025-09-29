@@ -61,7 +61,7 @@
 
 <div class="custom-select-container" bind:this={dropdownElement}>
 	<button class="select-selected" onclick={toggleDropdown} aria-haspopup="listbox" aria-expanded={isOpen}>
-		<span style="select-option">
+		<span style="color: #000;">
 			{items.findIndex((item) => item.value === selectedItem.value) + 1}) {selectedItem.thai}
 			{#if selectedItem.english}
 				| {selectedItem.english}
@@ -192,9 +192,5 @@
 
 	.select-items::-webkit-scrollbar-thumb:hover {
 		background: #a8a8a8; /* สีเมื่อเอาเมาส์ไปชี้ */
-	}
-
-	.select-option {
-		color: #000;
 	}
 </style>
