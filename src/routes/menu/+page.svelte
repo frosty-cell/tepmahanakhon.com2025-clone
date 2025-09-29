@@ -897,7 +897,9 @@
 		</section>
 
         {#if selectedCategory.description}
-			<p style="width: 100%; text-align: center; margin: 1rem 5px; font-size: 1.1rem;">{selectedCategory.description}</p>
+			<div style="width: 100%; text-align: center; display: flex; justify-content: center; align-items: center; margin: 1rem 0; ">
+				<p class="description-option">{selectedCategory.description}</p>
+			</div>
 		{/if}
         <hr>
 	{/if}
@@ -1026,6 +1028,10 @@
         text-align: center;
     }
 
+	.description-option {
+		font-size: 1.1rem; width: 300px;
+	}
+
     @media (max-width: 768px) {
         .menu-container {
             grid-template-columns: 1fr; /* 👈 ยังคงเป็น 1 คอลัมน์ */
@@ -1034,4 +1040,10 @@
             margin: 0 auto; /* 👈 จัด container ให้อยู่กึ่งกลาง */
         }
     }
+
+	@media (max-width: 425px) {
+		.description-option {
+			width: 300px;
+		}
+	}
 </style>
