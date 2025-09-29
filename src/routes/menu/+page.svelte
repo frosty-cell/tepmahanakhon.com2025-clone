@@ -30,7 +30,7 @@
 				name_en: 'Tod Mun Pla Too',
 				description: 'เนื้อปลาทูสดตำในครกหินกับพริกแกงเผ็ดใต้ทอดกรอบๆบนใบโหระพา | Thai Mackerel crispy cake',
 				price: 260,
-				image: '/images/menu/1/STARTERS - Tod Mun Pla Too.png',
+				image: '/images/menu/1/STARTERS - Tod Mun Pla Too.avif',
 				special_ingredient: "Hot"
 			},
 			{
@@ -38,7 +38,7 @@
 				name_en: 'Pla Pla Tu',
 				description: 'ปลาทูย่างหอมพล่ากับสมุนไพรรสจัด | Thai Mackerel spicy salad',
 				price: 210,
-				image: '/images/menu/1/STARTERS - Pla Pla Tu.png',
+				image: '/images/menu/1/STARTERS - Pla Pla Tu.avif',
 				special_ingredient: "Hot"
 			},
 			{
@@ -46,7 +46,7 @@
 				name_en: 'Kung Chae Nam Pla',
 				description: 'กุ้งสดพอดีคำโตหมักน้ำปลาหอมรสดีกับซอสพริกขี้หนูสวน | shrimp with spicy fish sauce',
 				price: 210,
-				image: '/images/menu/1/STARTERS - Kung Chae Nam Pla.png',
+				image: '/images/menu/1/STARTERS - Kung Chae Nam Pla.avif',
 				special_ingredient: "Mild"
 			},
 			{
@@ -54,7 +54,7 @@
 				name_en: 'Koh Gai Krabok',
 				description: 'ข้อไก่ทอดหมักเครื่องเทศรสทางใต้ | deep fried chicken cartilage soaked in spicy sauce',
 				price: 230,
-				image: '/images/menu/1/STARTERS - Koh Gai Krabok.png',
+				image: '/images/menu/1/STARTERS - Koh Gai Krabok.avif',
 				special_ingredient: undefined
 			},
 			{
@@ -62,7 +62,7 @@
 				name_en: 'Kao Kap Lub Lae',
 				description: 'แผ่นแป้งทำจากข้าวเหนียว ของทานเล่นจากลับแล เมืองอุตรดิตถ์ | 5 Mystery chips',
 				price: 150, // Price assumed
-				image: '/images/menu/1/STARTERS - Kao Kap Lub Lae.png',
+				image: '/images/menu/1/STARTERS - Kao Kap Lub Lae.avif',
 				special_ingredient: "Mild, Vegan"
 			},
 			{
@@ -70,7 +70,7 @@
 				name_en: 'Kao Kreab Wow',
 				description: 'ข้าวโป่ง ของทานเล่นโบราณทำจากข้าวเหนียว | Thai giant rice cracker served with sweet-spicy paste',
 				price: 150, // Price assumed
-				image: '/images/menu/1/STARTERS - Kao Kreab Wow.png',
+				image: '/images/menu/1/STARTERS - Kao Kreab Wow.avif',
 				special_ingredient: "Vegetarian, Mild, Vegan,"
 			},
 			{
@@ -78,7 +78,7 @@
 				name_en: 'Tua Samoon Prai',
 				description: 'เม็ดมะม่วงหิมพานต์ ถั่วปากอ้า ถั่วลิสงคั่ว เครื่องต้มยำ | mixed nuts roasted with Thai Tom Yum herbs',
 				price: 120, // Price assumed
-				image: '/images/menu/1/STARTERS - Tua Samoon Prai.png',
+				image: '/images/menu/1/STARTERS - Tua Samoon Prai.avif',
 				special_ingredient: 'Vegetarian, Mild, Organic, Vegan'
 			},
 			{
@@ -86,7 +86,7 @@
 				name_en: 'Silkworms',
 				description: 'หนอนไหมทอดสมุนไพรกรอบ | deep fried silkworms with herbs',
 				price: 180, // Price assumed
-				image: '/images/menu/1/STARTERS - Silkworms.png',
+				image: '/images/menu/1/STARTERS - Silkworms.avif',
 				special_ingredient: undefined
 			},
 			{
@@ -94,7 +94,7 @@
 				name_en: 'Moo-Srong',
 				description: 'หมูก้อนหมักพันด้วยเส้นหมี่เหลืองทอดกรอบ | deep fried pork dumpling wrapped with egg-noodles, served with plum sauce',
 				price: 220, // Price assumed
-				image: '/images/menu/1/STARTERS - Moo-Srong.png',
+				image: '/images/menu/1/STARTERS - Moo-Srong.avif',
 				special_ingredient: undefined
 			},
 			{
@@ -102,7 +102,7 @@
 				name_en: 'Goong Sabai',
 				description: 'กุ้งหมักห่มด้วยเส้นหมี่เหลืองทอดกรอบ | deep fried shrimp wrapped with egg-noodles served with plum sauce',
 				price: 240, // Price assumed
-				image: '/images/menu/1/STARTERS - Goong Sabai.png',
+				image: '/images/menu/1/STARTERS - Goong Sabai.avif',
 				special_ingredient: undefined
 			},
 			{
@@ -110,7 +110,7 @@
 				name_en: 'Nua Dad Diew',
 				description: 'เนื้อแดดเดียวคั่วสมุนไพรกรอบ | sun-dry beef, stir-fry with chilli and topped with crispy Thai basil',
 				price: 280, // Price assumed
-				image: '/images/menu/1/STARTERS - Nua Dad Diew.png',
+				image: '/images/menu/1/STARTERS - Nua Dad Diew.avif',
 				special_ingredient: "Mild"
 			},
 			{
@@ -118,7 +118,7 @@
 				name_en: 'Pla Nua Ta Crai Hom',
 				description: 'พล่าเนื้อย่างรสจัด | spicy beef salad with lemongrass and mint',
 				price: 290, // Price assumed
-				image: '/images/menu/1/STARTERS - Pla Nua Ta Crai Hom.png',
+				image: '/images/menu/1/STARTERS - Pla Nua Ta Crai Hom.avif',
 				special_ingredient: "ExtraHot"
 			},
 			{
@@ -126,7 +126,7 @@
 				name_en: 'Crying Tiger',
 				description: 'Grilled (picanha - 170g.) beef E-sarn style with jaew sauce | Farmer certified 100% Angus Grain fed 120 days',
 				price: 450,
-				image: '/images/menu/1/STARTERS - Crying Tiger.png',
+				image: '/images/menu/1/STARTERS - Crying Tiger.avif',
 				special_ingredient: 'Mild'
 			},
 			{
@@ -134,7 +134,7 @@
 				name_en: 'Darha Ma hor',
 				description: 'pineapple slide serve with nutty, Darha flower and mushroom',
 				price: 210,
-				image: '/images/menu/1/STARTERS - Darha Ma hor.png',
+				image: '/images/menu/1/STARTERS - Darha Ma hor.avif',
 				special_ingredient: 'Vegetarian'
 			},
 			{
@@ -142,7 +142,7 @@
 				name_en: 'Yum Dok Darha',
 				description: 'refreshing spicy Darha flower salad',
 				price: 210,
-				image: '/images/menu/1/STARTERS - Yum Dok Darha.png',
+				image: '/images/menu/1/STARTERS - Yum Dok Darha.avif',
 				special_ingredient: 'Vegetarian, Mild'
 			},
 			{
@@ -150,7 +150,7 @@
 				name_en: 'Larb Tod',
 				description: 'deep fried spicy plant base ball [E-sarn flaver]',
 				price: 210,
-				image: '/images/menu/1/STARTERS - Larb Tod.png',
+				image: '/images/menu/1/STARTERS - Larb Tod.avif',
 				special_ingredient: 'Vegetarian, Hot'
 			},
 			{
@@ -158,7 +158,7 @@
 				name_en: 'Som Tum Sai Bua',
 				description: 'ตำสายบัวไทยใส่กุ้ง หรือ ตำสายบัวกุ้งสดใส่ปลาร้า | stem of lotus flower made into spicy Thai salad',
 				price: 210,
-				image: '/images/menu/1/STARTERS - Som Tum Sai Bua.png',
+				image: '/images/menu/1/STARTERS - Som Tum Sai Bua.avif',
 				special_ingredient: 'Hot'
 			}
 		],
@@ -168,7 +168,7 @@
 				name_en: 'Kao Yang (grilled platter - 9 sticks)',
 				description: 'รวมของย่าง 9 ไม้',
 				price: 450, // Price assumed
-				image: '/images/menu/2/GRILLED - Kao Yang grilled platter - 9 sticks.png',
+				image: '/images/menu/2/GRILLED - Kao Yang grilled platter - 9 sticks.avif',
 				special_ingredient: undefined
 			},
 			{
@@ -176,7 +176,7 @@
 				name_en: 'Kai Yang Kamin',
 				description: 'cumin marinated grilled chicken served with tamarind sauce',
 				price: 250, // Price assumed
-				image: '/images/menu/2/GRILLED - Kai Yang Kamin.png',
+				image: '/images/menu/2/GRILLED - Kai Yang Kamin.avif',
 				special_ingredient: undefined
 			},
 			{
@@ -184,7 +184,7 @@
 				name_en: 'Goong Yang',
 				description: 'grilled lemongrass shrimp with - 3 sticks',
 				price: 280, // Price assumed
-				image: '/images/menu/2/GRILLED - Goong Yang.png',
+				image: '/images/menu/2/GRILLED - Goong Yang.avif',
 				special_ingredient: undefined
 			},
 			{
@@ -192,7 +192,7 @@
 				name_en: 'Tub Kai Yang',
 				description: 'grilled chicken liver served with tamarind sauce',
 				price: 180, // Price assumed
-				image: '/images/menu/2/GRILLED - Tub Kai Yang.png',
+				image: '/images/menu/2/GRILLED - Tub Kai Yang.avif',
 				special_ingredient: undefined
 			},
 			{
@@ -200,7 +200,7 @@
 				name_en: 'Sai Krok Kwan',
 				description: 'grilled Thai sour E-sarn sausage',
 				price: 220, // Price assumed
-				image: '/images/menu/2/GRILLED - Sai Krok Kwan.png',
+				image: '/images/menu/2/GRILLED - Sai Krok Kwan.avif',
 				special_ingredient: undefined
 			},
 			{
@@ -208,7 +208,7 @@
 				name_en: 'Charcoal Grill',
 				description: 'เนื้อส่วนพิคานย่า',
 				price: 450, // Price assumed
-				image: '/images/menu/2/GRILLED - Charcoal Grill.png',
+				image: '/images/menu/2/GRILLED - Charcoal Grill.avif',
 				special_ingredient: undefined
 			}
 		],
@@ -218,7 +218,7 @@
 				name_en: 'Pad Thai Tep',
 				description: 'Sukhothai recipe Pad Thai with shrimp, *contain nuts',
 				price: 230,
-				image: '/images/menu/3/MAIN_DISH_IN_BAMBOO_TUBE - Pad Thai Tep.png',
+				image: '/images/menu/3/MAIN_DISH_IN_BAMBOO_TUBE - Pad Thai Tep.avif',
 				special_ingredient: undefined
 			},
 			{
@@ -226,7 +226,7 @@
 				name_en: 'Khao Nua Dad Diew',
 				description: 'spicy fried rice with sun-dry beef, topped with crispy Thai basil',
 				price: 260,
-				image: '/images/menu/3/MAIN_DISH_IN_BAMBOO_TUBE - Khao Nua Dad Diew.png',
+				image: '/images/menu/3/MAIN_DISH_IN_BAMBOO_TUBE - Khao Nua Dad Diew.avif',
 				special_ingredient: 'Mild'
 			},
 			{
@@ -234,7 +234,7 @@
 				name_en: 'Khao Kua Sai Krok Kwan',
 				description: 'fried rice with sour E-sarn sausage',
 				price: 210,
-				image: '/images/menu/3/MAIN_DISH_IN_BAMBOO_TUBE - Khao Kua Sai Krok Kwan.png',
+				image: '/images/menu/3/MAIN_DISH_IN_BAMBOO_TUBE - Khao Kua Sai Krok Kwan.avif',
 				special_ingredient: undefined
 			},
 			{
@@ -242,7 +242,7 @@
 				name_en: 'Khao Kua Tub Tod Kra Tiam',
 				description: 'fried rice with chicken liver and crispy garlic',
 				price: 210,
-				image: '/images/menu/3/MAIN_DISH_IN_BAMBOO_TUBE - Khao Kua Tub Tod Kra Tiam.png',
+				image: '/images/menu/3/MAIN_DISH_IN_BAMBOO_TUBE - Khao Kua Tub Tod Kra Tiam.avif',
 				special_ingredient: undefined
 			},
 			{
@@ -250,7 +250,7 @@
 				name_en: 'Khao Kua Pla Tu',
 				description: 'fried rice with Thai Mackerel and herbs',
 				price: 210,
-				image: '/images/menu/3/MAIN_DISH_IN_BAMBOO_TUBE - Khao Kua Pla Tu.png',
+				image: '/images/menu/3/MAIN_DISH_IN_BAMBOO_TUBE - Khao Kua Pla Tu.avif',
 				special_ingredient: undefined
 			},
 			{
@@ -258,7 +258,7 @@
 				name_en: 'Pad Tai Tofu',
 				description: 'Sukhothai recipe Pad Thai with tofu, *contain nuts',
 				price: 230,
-				image: '/images/menu/3/MAIN_DISH_IN_BAMBOO_TUBE - Pad Tai Tofu.png',
+				image: '/images/menu/3/MAIN_DISH_IN_BAMBOO_TUBE - Pad Tai Tofu.avif',
 				special_ingredient: 'Vegetarian'
 			}
 		],
@@ -268,7 +268,7 @@
 				name_en: 'Darha Ma hor',
 				description: 'pineapple slide serve with nutty, Darha flower and mushroom',
 				price: 210,
-				image: '/images/menu/4/PLANT_BASE - Darha Ma hor.png',
+				image: '/images/menu/4/PLANT_BASE - Darha Ma hor.avif',
 				special_ingredient: 'Vegetarian'
 			},
 			{
@@ -276,7 +276,7 @@
 				name_en: 'Yum Dok Darha',
 				description: 'refreshing spicy Darha flower salad',
 				price: 210,
-				image: '/images/menu/4/PLANT_BASE - Yum Dok Darha.png',
+				image: '/images/menu/4/PLANT_BASE - Yum Dok Darha.avif',
 				special_ingredient: 'Vegetarian, Mild'
 			},
 			{
@@ -284,7 +284,7 @@
 				name_en: 'Larb Tod',
 				description: 'deep fried spicy plant base ball [E-sarn flaver]',
 				price: 210,
-				image: '/images/menu/4/PLANT_BASE - Larb Tod.png',
+				image: '/images/menu/4/PLANT_BASE - Larb Tod.avif',
 				special_ingredient: 'Vegetarian, Hot'
 			},
 			{
@@ -292,7 +292,7 @@
 				name_en: 'Pad Tai Tofu',
 				description: 'Sukhothai recipe Pad Thai with tofu, *contain nuts',
 				price: 230,
-				image: '/images/menu/4/PLANT_BASE - Pad Tai Tofu.png',
+				image: '/images/menu/4/PLANT_BASE - Pad Tai Tofu.avif',
 				special_ingredient: 'Vegetarian'
 			},
 			{
@@ -300,7 +300,7 @@
 				name_en: 'Khao Kua Kra Prao Mu Krob',
 				description: 'spicy basil fried rice with crispy plant base',
 				price: 210,
-				image: '/images/menu/4/PLANT_BASE - Khao Kua Kra Prao Mu Krob.png',
+				image: '/images/menu/4/PLANT_BASE - Khao Kua Kra Prao Mu Krob.avif',
 				special_ingredient: 'Vegetarian, Mild'
 			},
 			{
@@ -308,7 +308,7 @@
 				name_en: 'Yum Nham Moo Krob',
 				description: 'spicy sour fermented crispy plant base salad with fresh ginger, chilli, black sesame',
 				price: 210,
-				image: '/images/menu/4/PLANT_BASE - Yum Nham Moo Krob.png',
+				image: '/images/menu/4/PLANT_BASE - Yum Nham Moo Krob.avif',
 				special_ingredient: 'Vegetarian, Mild'
 			},
 			{
@@ -316,7 +316,7 @@
 				name_en: 'Larb Moo Krob',
 				description: 'deep fried spicy crispy plant base, seasoned with E-sarn flaver',
 				price: 210,
-				image: '/images/menu/4/PLANT_BASE - Larb Moo Krob.png',
+				image: '/images/menu/4/PLANT_BASE - Larb Moo Krob.avif',
 				special_ingredient: 'Vegetarian, Mild'
 			}
 		],
@@ -326,7 +326,7 @@
 				name_en: 'Thai Herbal Liquor',
 				description: 'รวม 3 ตัว เสิร์ฟครบชุด (พระอภัยมณี / ราชสีห์คำราม / กากี) | a taster set of 3 kinds',
 				price: 400,
-				image: '/images/menu/5/SIGNATURE_DRINKS - Thai Herbal Liquor.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - Thai Herbal Liquor.avif',
 				special_ingredient: undefined,
 				type: 'Type 1'
 			},
@@ -335,7 +335,7 @@
 				name_en: 'SongKran',
 				description: 'เปรี้ยว หวาน ดื่มง่าย ชวนให้สดชื่น | passionfruit, lime, syrup, mint',
 				price: 330,
-				image: '/images/menu/5/SIGNATURE_DRINKS - SongKran.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - SongKran.avif',
 				special_ingredient: 'Vegetarian',
 				type: 'Type 1'
 			},
@@ -344,7 +344,7 @@
 				name_en: 'E-Sarn Rocket',
 				description: 'สุราสมุนไพรทิ้งดิ่งลงในกระบอกไม้ไผ่ที่เต็มไปด้วยเบียร์ไทย | beer bomb with herbal liquor shot',
 				price: 330,
-				image: '/images/menu/5/SIGNATURE_DRINKS - E-Sarn Rocket.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - E-Sarn Rocket.avif',
 				special_ingredient: undefined,
 				type: 'Type 1'
 			},
@@ -353,7 +353,7 @@
 				name_en: 'LOY KRA TONG',
 				description: 'ลอยละล่อง แรง แต่ดื่มลื่น | Campari, syrup, egg white, flower pollen-infused liquor, dry vermouth, lime',
 				price: 500,
-				image: '/images/menu/5/SIGNATURE_DRINKS - LOY KRA TONG.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - LOY KRA TONG.avif',
 				special_ingredient: undefined,
 				type: 'Type 1'
 			},
@@ -362,7 +362,7 @@
 				name_en: 'SIAM SAMCHA [MICHELIN GALA DINNER 2023]',
 				description: 'รางวัลรองชนะเลิศ Mekhong The Spirit Competition 2022 และเสริฟในงาน MICHELIN GALA DINNER 2023 | Mekhong, fire Samkler brown sugar, Samkler cordial, Aperol, sparkling rose',
 				price: 400,
-				image: '/images/menu/5/SIGNATURE_DRINKS - SIAM SAMCHA [MICHELIN GALA DINNER 2023].png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - SIAM SAMCHA [MICHELIN GALA DINNER 2023].avif',
 				special_ingredient: undefined,
 				type: 'Type 2'
 			},
@@ -371,7 +371,7 @@
 				name_en: 'Mekhong Chalerm Thai [MICHELIN GALA DINNER 2022]',
 				description: 'แม่โขงเฉลิมไทย ถูกรับเชิญให้เสริฟในงาน MICHELIN GALA DINNER 2022 | Mekhong, Indian gooseberry, clove, kaffir leaves, fever tree tonic',
 				price: 400,
-				image: '/images/menu/5/SIGNATURE_DRINKS - Mekhong Chalerm Thai [MICHELIN GALA DINNER 2022].png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - Mekhong Chalerm Thai [MICHELIN GALA DINNER 2022].avif',
 				special_ingredient: undefined,
 				type: 'Type 2'
 			},
@@ -380,7 +380,7 @@
 				name_en: 'THONG [ MICHELIN GALA DINNER 2018 ]',
 				description: 'ถูกคัดเลือกให้เสริฟในงาน Gala Michelin 2018 หอมหวานด้วยรสมะม่วงนำ้ดอกไม้ และน้ำผึ้งป่า | fresh mango, wild honey, dill, lime, syrup, egg white, pure gold leaf',
 				price: 400,
-				image: '/images/menu/5/SIGNATURE_DRINKS - THONG [ MICHELIN GALA DINNER 2018 ].png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - THONG [ MICHELIN GALA DINNER 2018 ].avif',
 				special_ingredient: undefined,
 				type: 'Type 2'
 			},
@@ -389,7 +389,7 @@
 				name_en: 'SA WANG FAH',
 				description: 'จิน ดองเก็กฮวยป่า ชาหอมหมื่นลี้ บ๊วย และผสมด้วยโทนิคชั้นดี | local gin infused with; plum, herbs, chrysanthemum tea, Fever Tree tonic',
 				price: 420,
-				image: '/images/menu/5/SIGNATURE_DRINKS - SA WANG FAH.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - SA WANG FAH.avif',
 				special_ingredient: undefined,
 				type: 'Type 2'
 			},
@@ -398,7 +398,7 @@
 				name_en: 'DERN AR-KAD',
 				description: '2 รส ว็อดก้า รัม พริก-เกลือหิมาลายัน และสับปะรดรัม | rum, vodka, sweet & sour rimmed-glass, syrup, lime and pineapple',
 				price: 400,
-				image: '/images/menu/5/SIGNATURE_DRINKS - DERN AR-KAD.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - DERN AR-KAD.avif',
 				special_ingredient: undefined,
 				type: 'Type 2'
 			},
@@ -407,7 +407,7 @@
 				name_en: 'YAM YEN',
 				description: 'สดชื่น เด่นด้วยกลิ่นนำ้มันหอมระเหยจากใบโหระพา | crushed basil leaves, lime, syrup, Angostura bitter',
 				price: 300,
-				image: '/images/menu/5/SIGNATURE_DRINKS - YAM YEN.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - YAM YEN.avif',
 				special_ingredient: undefined,
 				type: 'Type 2'
 			},
@@ -416,7 +416,7 @@
 				name_en: 'HIDDEN AGENDA',
 				description: 'หวานซ่อนเปรี้ยว ใช้ผลไม้ตามฤดูกาล | sweet & sour taste of seasonal fruits of Thailand',
 				price: 400,
-				image: '/images/menu/5/SIGNATURE_DRINKS - HIDDEN AGENDA.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - HIDDEN AGENDA.avif',
 				special_ingredient: undefined,
 				type: 'Type 2'
 			},
@@ -425,7 +425,7 @@
 				name_en: 'CHOM DONG',
 				description: 'ชงแบบนิโกรนี่ ขิงตัดกับรสหวานจากอินทผาลัม และน้ำยาอุทัยทิพย์ | Negroni style cocktail with ginger, dates fruit, Campari, sweet vermouth, Thai bitter',
 				price: 400,
-				image: '/images/menu/5/SIGNATURE_DRINKS - CHOM DONG.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - CHOM DONG.avif',
 				special_ingredient: undefined,
 				type: 'Type 2'
 			},
@@ -434,7 +434,7 @@
 				name_en: 'KAL LA KRANG 1',
 				description: 'จินล้ำลึก ชวนหวนคิดถึงอดีต หวานปนขม | dry gin, lime, butterfly pea and lime candy',
 				price: 400,
-				image: '/images/menu/5/SIGNATURE_DRINKS - KAL LA KRANG 1.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - KAL LA KRANG 1.avif',
 				special_ingredient: undefined,
 				type: 'Type 2'
 			},
@@ -443,7 +443,7 @@
 				name_en: 'ERB ANDAMAN',
 				description: 'พาลงใต้ชมดงดอกดาหลา สาวงามที่โอบล้อมทะเลอันดามัน | Saneha craft gin, Darha cordiel, lime, Fever Tree tonic',
 				price: 400,
-				image: '/images/menu/5/SIGNATURE_DRINKS - ERB ANDAMAN.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - ERB ANDAMAN.avif',
 				special_ingredient: undefined,
 				type: 'Type 2'
 			},
@@ -452,7 +452,7 @@
 				name_en: 'PANDAN',
 				description: '(rum + pandan infused home-made syrup)',
 				price: 380,
-				image: '/images/menu/5/SIGNATURE_DRINKS - HIGHBALL_PANDAN.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - HIGHBALL_PANDAN.avif',
 				special_ingredient: undefined,
 				type: '(local aged rum cocktails, low-ABV, highball)'
 			},
@@ -461,7 +461,7 @@
 				name_en: 'PINEAPPLE',
 				description: '(rum + soda + pineapple infused home-made syrup)',
 				price: 380,
-				image: '/images/menu/5/SIGNATURE_DRINKS - HIGHBALL_PINEAPPLE.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - HIGHBALL_PINEAPPLE.avif',
 				special_ingredient: undefined,
 				type: '(local aged rum cocktails, low-ABV, highball)'
 			},
@@ -470,7 +470,7 @@
 				name_en: 'Plum',
 				description: '(rum + plum infused home-made syrup)',
 				price: 380,
-				image: '/images/menu/5/SIGNATURE_DRINKS - HIGHBALL_Plum.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - HIGHBALL_Plum.avif',
 				special_ingredient: undefined,
 				type: '(local aged rum cocktails, low-ABV, highball)'
 			},
@@ -479,7 +479,7 @@
 				name_en: 'THAI TEA',
 				description: '(rum + soda + Thai tea infused home-made syrup)',
 				price: 380,
-				image: '/images/menu/5/SIGNATURE_DRINKS - THAI TEA.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - THAI TEA.avif',
 				special_ingredient: undefined,
 				type: '(local aged rum cocktails, low-ABV, highball)'
 			},
@@ -488,7 +488,7 @@
 				name_en: 'UTAITIP',
 				description: '(rum + soda + Thai herbal bitter infused home-made syrup)',
 				price: 380,
-				image: '/images/menu/5/SIGNATURE_DRINKS - UTAITIP.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - UTAITIP.avif',
 				special_ingredient: undefined,
 				type: '(local aged rum cocktails, low-ABV, highball)'
 			},
@@ -497,7 +497,7 @@
 				name_en: 'Local Distilled Spirits',
 				description: 'สุรากลั่นชุมชนรสชาติดีทั่วไทย สอบถามได้จากพนักงาน (ซอต/แก้ว) | A curated selection of premium Thai craft spirits',
 				price: 350,
-				image: '/images/menu/product-placeholder.png',
+				image: '/images/menu/product-placeholder.avif',
 				special_ingredient: undefined,
 				type: 'Type 4'
 			},
@@ -506,7 +506,7 @@
 				name_en: 'Au Mixed',
 				description: 'เลือกเสิร์ฟกับ เบียร์ หรือซอฟดริ้ง | local rice wine from E-Sarn, served with beer or soft drinks',
 				price: 290,
-				image: '/images/menu/5/SIGNATURE_DRINKS - Au Mixed.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - Au Mixed.avif',
 				special_ingredient: undefined,
 				type: 'Type 4'
 			},
@@ -515,7 +515,7 @@
 				name_en: 'Sato Phrae',
 				description: 'สาโทจากข้าว 5 สายพันธุ์ อาทิ ข้าวเหนียวแม่โจ้ กข6 | Local rice wine made from 5 types of sticky rice [Phrae: North of TH] Alc.9.1%',
 				price: 290,
-				image: '/images/menu/5/SIGNATURE_DRINKS - Sato Phrae.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - Sato Phrae.avif',
 				special_ingredient: undefined,
 				type: 'Type 4'
 			},
@@ -524,7 +524,7 @@
 				name_en: 'DEVANOM CRAFT SATO',
 				description: 'คราฟท์สาโทพรีเมี่ยมรสนุ่มนวลทำจากข้าวเหนียวเขี้ยวงูเชียงราย | Premium sato crafted with care using the finest Khiew Ngu sticky rice from Chiangrai. aromatic, fruity note, ALC.6%',
 				price: 290,
-				image: '/images/menu/5/SIGNATURE_DRINKS - DEVANOM CRAFT SATO.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - DEVANOM CRAFT SATO.avif',
 				special_ingredient: undefined,
 				type: 'Type 4'
 			},
@@ -533,7 +533,7 @@
 				name_en: 'RUANG KHAO SIAM SAPPHIRE',
 				description: 'Aged in oak casks, imparting a rich, full-bodied, and aromatic flavor. On the rock or neat',
 				price: 450,
-				image: '/images/menu/5/SIGNATURE_DRINKS - RUANG KHAO SIAM SAPPHIRE.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - RUANG KHAO SIAM SAPPHIRE.avif',
 				special_ingredient: undefined,
 				type: 'Type 4'
 			},
@@ -542,7 +542,7 @@
 				name_en: 'Lao Khao',
 				description: 'สุราขาวบ่มพิเศษ 35 ดีกรี ดื่มเป็นช็อตหรือสูตรผสมกระทิงแดง | Thai white spirit, strong sensation. Alc. 35%',
 				price: 350,
-				image: '/images/menu/5/SIGNATURE_DRINKS - Lao Khao.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - Lao Khao.avif',
 				special_ingredient: undefined,
 				type: 'Type 4'
 			},
@@ -551,7 +551,7 @@
 				name_en: 'LOCAL RUM + MIXER',
 				description: '',
 				price: 350,
-				image: '/images/menu/product-placeholder.png',
+				image: '/images/menu/product-placeholder.avif',
 				special_ingredient: undefined,
 				type: 'Type 5'
 			},
@@ -560,7 +560,7 @@
 				name_en: 'GIN + TONIC',
 				description: 'ราคา 400 - 1,000 บาท',
 				price: 400,
-				image: '/images/menu/product-placeholder.png',
+				image: '/images/menu/product-placeholder.avif',
 				special_ingredient: undefined,
 				type: 'Type 5'
 			},
@@ -569,7 +569,7 @@
 				name_en: 'THAI GIN + TONIC',
 				description: 'We use Fever Tree Tonic, and Iron Balls Gin',
 				price: 450,
-				image: '/images/menu/5/SIGNATURE_DRINKS - THAI GIN+ TONIC.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - THAI GIN+ TONIC.avif',
 				special_ingredient: undefined,
 				type: 'Type 5'
 			},
@@ -578,7 +578,7 @@
 				name_en: 'SCOTH WHISKY / VODKA / BOURBON / + MIXER',
 				description: 'ราคา 400-1,000 บาท',
 				price: 400,
-				image: '/images/menu/product-placeholder.png',
+				image: '/images/menu/product-placeholder.avif',
 				special_ingredient: undefined,
 				type: 'Type 5'
 			},
@@ -587,7 +587,7 @@
 				name_en: 'SINGLE MALT WHISKY',
 				description: 'เสิร์ฟกับน้ำแข็งมวลแน่น ใสบริสุทธิ์ | by shot, on the rock or neat, we use high quality rock ice',
 				price: 400,
-				image: '/images/menu/product-placeholder.png',
+				image: '/images/menu/product-placeholder.avif',
 				special_ingredient: undefined,
 				type: 'Type 5'
 			},
@@ -596,7 +596,7 @@
 				name_en: 'MINERAL WATER',
 				description: '(Sai Yok Springs still water - 250 ml.)',
 				price: 50,
-				image: '/images/menu/5/SIGNATURE_DRINKS - MINERAL WATER.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - MINERAL WATER.avif',
 				special_ingredient: undefined,
 				type: 'Type 6'
 			},
@@ -605,7 +605,7 @@
 				name_en: 'SPARKLING WATER',
 				description: 'Sai Yok Springs sparkling water - 250 ml',
 				price: 120,
-				image: '/images/menu/5/SIGNATURE_DRINKS - SPARKLING WATER.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - SPARKLING WATER.avif',
 				special_ingredient: undefined,
 				type: 'Type 6'
 			},
@@ -614,7 +614,7 @@
 				name_en: 'COCONUT PILLEN FLOWER',
 				description: 'ของดีจากแม่กลอง ความหวานจากธรรมชาติ สดชื่น สุดฟิน | Non-alcoholic',
 				price: 210,
-				image: '/images/menu/5/SIGNATURE_DRINKS - COCONUT PILLEN FLOWER.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - COCONUT PILLEN FLOWER.avif',
 				special_ingredient: 'Vegetarian',
 				type: 'Type 6'
 			},
@@ -623,7 +623,7 @@
 				name_en: 'Like A Virgin',
 				description: 'ตะไคร้ ใบเตย | lemongrass and pandan syrup, lime',
 				price: 230,
-				image: '/images/menu/5/SIGNATURE_DRINKS - Like A Virgin.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - Like A Virgin.avif',
 				special_ingredient: 'Vegetarian',
 				type: 'Type 6'
 			},
@@ -632,7 +632,7 @@
 				name_en: 'Fever Tree Tonic',
 				description: '',
 				price: 150,
-				image: '/images/menu/5/SIGNATURE_DRINKS - Fever Tree Tonic.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - Fever Tree Tonic.avif',
 				special_ingredient: undefined,
 				type: 'Type 6'
 			},
@@ -641,7 +641,7 @@
 				name_en: 'Soft drinks',
 				description: 'โค้ก / สไปรท์ / โซดา | Coke / Sprite / Soda',
 				price: 100,
-				image: '/images/menu/5/SIGNATURE_DRINKS - Soft drinks.png',
+				image: '/images/menu/5/SIGNATURE_DRINKS - Soft drinks.avif',
 				special_ingredient: undefined,
 				type: 'Type 6'
 			}
@@ -652,7 +652,7 @@
 				name_en: 'MAKMAO WINE (Red)',
 				description: 'ไวน์แดง ไทย (สกลนคร), Mak Mao berry; เบอร์รี่และผลไม้สด | Red wine, Thailand (Sakon Nakhon); organic Mak Mao berry – fresh fruit notes & berry',
 				price: 1400,
-				image: '/images/menu/6/BEER_WINE - MAKMAO WINE (Red).png',
+				image: '/images/menu/6/BEER_WINE - MAKMAO WINE (Red).avif',
 				special_ingredient: undefined
 			},
 			{
@@ -660,7 +660,7 @@
 				name_en: 'THONGKham ESTATE (Red)',
 				description: 'ไวน์แดงไทย (เชียงราย)ทองคำ เอสเตท ปิโนต์ นัวร์ 2022 — เชอร์รี่ ราสเบอร์รี่ วานิลลา โอ๊ค | Red Wine Thailand (Chiang Rai) Thongkham Estate Pinot Noir 2022',
 				price: 1500,
-				image: '/images/menu/6/BEER_WINE - THONGKHAM ESTATE (Red).png',
+				image: '/images/menu/6/BEER_WINE - THONGKHAM ESTATE (Red).avif',
 				special_ingredient: undefined
 			},
 			{
@@ -668,7 +668,7 @@
 				name_en: 'GRANMONTE SAKUNA (Rosé)',
 				description: 'ไวน์โรเซ่ไทย (เขาใหญ่)กรามอนเต้ สกุณา โรเซ่ — สีชมพูใสเบอร์รี่ รสนุ่ม หวานบาง สดชื่น | Rosé Wine Thailand (Khao Yai) GranMonte Sakuna Rosé',
 				price: 1500,
-				image: '/images/menu/6/BEER_WINE - GRANMONTE SAKUNA (Rosé).png',
+				image: '/images/menu/6/BEER_WINE - GRANMONTE SAKUNA (Rosé).avif',
 				special_ingredient: undefined
 			},
 			{
@@ -676,7 +676,7 @@
 				name_en: 'LAMADOR (Red)',
 				description: 'ไวน์แดง ชิลี, Merlot 2019; ผลไม้แดง & ดอกไวโอเล็ต | Red wine, Chile; Merlot 2019 – red fruit & violet floral notes',
 				price: 1500,
-				image: '/images/menu/6/BEER_WINE - LAMADOR (Red).png',
+				image: '/images/menu/6/BEER_WINE - LAMADOR (Red).avif',
 				special_ingredient: undefined
 			},
 			{
@@ -684,7 +684,7 @@
 				name_en: 'FINIMONDO (Red)',
 				description: 'ไวน์แดง อิตาลี, Nero d’Avola & Syrah; เบอร์รี่ ยาสูบ เครื่องเทศ | Red wine, Italy; Nero d’Avola & Syrah – intense berry, tobacco & spice',
 				price: 2000,
-				image: '/images/menu/6/BEER_WINE - FINIMONDO (Red).png',
+				image: '/images/menu/6/BEER_WINE - FINIMONDO (Red).avif',
 				special_ingredient: undefined
 			},
 			{
@@ -692,7 +692,7 @@
 				name_en: 'GRANMONTE VIOGNIER (White)',
 				description: 'ไวน์ขาวไทย (เขาใหญ่)กรามอนเต้ วิอองเย่ 2024 — ดอกไม้เมืองร้อน แร่ธาตุ โอ๊ค | White Wine Thailand (Khao Yai) GranMonte Viognier 2024',
 				price: 1500,
-				image: '/images/menu/6/BEER_WINE - GRANMONTE VIOGNIER (White).png',
+				image: '/images/menu/6/BEER_WINE - GRANMONTE VIOGNIER (White).avif',
 				special_ingredient: undefined
 			},
 			{
@@ -700,7 +700,7 @@
 				name_en: 'PÃ ROAD (White)',
 				description: 'ไวน์ขาว นิวซีแลนด์ (Marlborough), Sauvignon Blanc 2023; ดอกไม้ ซิตรัส และเครื่องเทศ | White wine, New Zealand (Marlborough); Sauvignon Blanc 2023',
 				price: 1800,
-				image: '/images/menu/6/BEER_WINE - PÃ ROAD (White).png',
+				image: '/images/menu/6/BEER_WINE - PÃ ROAD (White).avif',
 				special_ingredient: undefined
 			},
 			{
@@ -708,7 +708,7 @@
 				name_en: '7 CASINE (Sparkling)',
 				description: 'ไวน์ขาว อิตาลี, Prosecco DOC; เบา ดราย ฟองนุ่ม | White wine, Italy; Prosecco DOC – light, dry & fine bubbles',
 				price: 1600,
-				image: '/images/menu/6/BEER_WINE - 7 CASINE (Sparkling).png',
+				image: '/images/menu/6/BEER_WINE - 7 CASINE (Sparkling).avif',
 				special_ingredient: undefined
 			},
 			{
@@ -716,7 +716,7 @@
 				name_en: 'CHALAWAN BEER',
 				description: '(PALE ALE) 4.7% ALC. (small bottle)',
 				price: 280,
-				image: '/images/menu/6/BEER_WINE - CHALAWAN BEER.png',
+				image: '/images/menu/6/BEER_WINE - CHALAWAN BEER.avif',
 				special_ingredient: undefined,
                 type: "(local beer - bottle)"
 			},
@@ -725,7 +725,7 @@
 				name_en: 'BUSSABA BEER',
 				description: 'wheat Beer จากภูเก็ต',
 				price: 280,
-				image: '/images/menu/6/BEER_WINE - BUSSABA BEER.png',
+				image: '/images/menu/6/BEER_WINE - BUSSABA BEER.avif',
 				special_ingredient: undefined,
                 type: "(local beer - bottle)"
 			},
@@ -734,7 +734,7 @@
 				name_en: 'SINGHA BEER',
 				description: '(LAGER BEER) 5% ALC. (small bottle)',
 				price: 250,
-				image: '/images/menu/6/BEER_WINE - SINGHA BEER.png',
+				image: '/images/menu/6/BEER_WINE - SINGHA BEER.avif',
 				special_ingredient: undefined,
                 type: "(local beer - bottle)"
 			}
@@ -745,7 +745,7 @@
 				name_en: 'CHINDA MANEE',
 				description: 'ข้าวเหนียวมูน 3 หน้า มะม่วงน้ำดอกไม้ + กระฉีก มะพร้าวทึนทึก + ทองหยอดหยาดเพชร สูตรไข่เค็ม | Mango sticky rice with shredded coconut and baby Thong yod (eggdrop sweet)',
 				price: 180,
-				image: '/images/menu/7/DESSERT - CHINDA MANEE.png',
+				image: '/images/menu/7/DESSERT - CHINDA MANEE.avif',
 				special_ingredient: undefined
 			}
 		]
