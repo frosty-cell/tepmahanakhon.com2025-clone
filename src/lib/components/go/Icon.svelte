@@ -35,7 +35,7 @@
 
 	/* Tooltip styles */
 	.tooltip {
-		visibility: hidden;
+		/* visibility: hidden; */
 		width: max-content;
 		background-color: #333;
 		color: #fff;
@@ -43,13 +43,15 @@
 		border-radius: 6px;
 		padding: 5px 10px;
 		position: absolute;
-		z-index: 1;
+		/* z-index: 1; */
 		bottom: 125%; /* ตำแหน่ง tooltip ให้อยู่เหนือไอคอน */
 		left: 50%;
         transform: translateX(-50%); /* ขยับกลับมาทางซ้าย 50% ของความกว้างตัวเอง */
 		/* margin-left: -35px; /* ปรับให้ tooltip อยู่กลางไอคอน */
-		opacity: 0;
-		transition: opacity 0.3s;
+		opacity: 0; /* ซ่อนไว้ */
+        visibility: hidden; /* ซ่อนจากการมองเห็นและการคลิก */
+        transition: opacity 0.2s ease, visibility 0.2s ease; /* เพิ่มอนิเมชั่น */
+        z-index: 10;
 	}
 
 	/* ลูกศรชี้ลงของ tooltip */
