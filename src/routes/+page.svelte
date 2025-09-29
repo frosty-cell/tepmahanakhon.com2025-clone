@@ -69,7 +69,7 @@
     .banner-image {
         display: block; /* แก้ปัญหาช่องว่างเล็กๆ ใต้ภาพ */
         place-self: center;
-        width: 99%;
+        width: 100%;
         height: auto;
         /* อาจจะเพิ่มความสว่างหรือฟิลเตอร์ให้ข้อความเด่นขึ้น */
         filter: brightness(0.7);
@@ -102,7 +102,7 @@
             height: auto;
         }
 
-        .sub-welcome { font-size: 0.55rem; }
-        .welcome-tepbar { font-size: 1rem; }
+        .sub-welcome { font-size: 0.65rem; }
+        .welcome-tepbar { font-size: 1.2rem; }
     }
 </style>
