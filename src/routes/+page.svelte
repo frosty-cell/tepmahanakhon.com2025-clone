@@ -1,7 +1,8 @@
 <svelte:head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect stylesheet" href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400&display=swap">
-    
+
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400&display=swap" rel="stylesheet">
     <title>[Clone] Home | TEP BAR</title>
     <meta name="description" content="Experience the essence of Thai culture through music, cocktails, and ambiance. TEP BAR(เทพบาร์) — Thailand's only Cultural Bar, established in 2015." />
 </svelte:head>
@@ -101,7 +102,7 @@
             height: auto;
         }
 
-        .sub-welcome { font-size: 0.65rem; }
-        .welcome-tepbar { font-size: 1.2rem; }
+        .sub-welcome { font-size: 0.875rem; }
+        .welcome-tepbar { font-size: 1.5rem; }
     }
 </style>
