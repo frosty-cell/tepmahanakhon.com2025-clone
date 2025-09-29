@@ -20,8 +20,8 @@
             height="1200"
         > -->
         <picture>
-            <source media="(max-width: 768px)" srcset="/images/banner/homepage-mobile.avif">
-            
+            <source media="(max-width: 425px)" srcset="/images/banner/homepage-mobile.avif">
+            <source media="(max-width: 768px)" srcset="/images/banner/homepage-tablet.avif">
             <source media="(min-width: 769px)" srcset="/images/banner/homepage.avif">
             
             <img 
@@ -35,8 +35,8 @@
         </picture>
 
         <div class="banner-text">
-            <h2 style="font-size: 2.5rem; padding: 1rem 0; font-weight: 300;">WELCOME TO TEP BAR</h2>
-            <p>The Cultural Bar | Since 2015</p>
+            <h2 class="welcome-tepbar">WELCOME TO TEP BAR</h2>
+            <p class="sub-welcome">The Cultural Bar | Since 2015</p>
         </div>
     </div>
 </main>
@@ -89,6 +89,10 @@
         text-align: center;
     }
 
+    .welcome-tepbar {
+        font-size: 2.5rem; padding: 1rem 0; font-weight: 300;
+    }
+
     @media (max-width: 768px) {
         .banner-image {
             width: 100%;
@@ -97,5 +101,8 @@
         .banner-image {
             height: auto;
         }
+
+        .sub-welcome { font-size: 0.55rem; }
+        .welcome-tepbar { font-size: 1rem; }
     }
 </style>

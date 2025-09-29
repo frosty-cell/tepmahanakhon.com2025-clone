@@ -68,7 +68,19 @@
         <div style="width: 31px; place-self: center; height: 3px; background-color: #000; border-radius: 1rem; margin: 1rem 1rem 2rem ;"></div>
     </section>
     <section>
-        <img style="width: 100%; object-fit: cover;" src="/images/banner/tepbar-_livebrands_banner.avif" alt="">
+        <picture>
+            <source media="(max-width: 768px)" srcset="/images/banner/tepbar-_livebrands_banner--mobile.avif">
+            <source media="(min-width: 769px)" srcset="/images/banner/tepbar-_livebrands_banner.avif">
+            
+            <img 
+                src="/images/banner/tepbar-_livebrands_banner.avif"
+                alt="บรรยากาศภายในร้านเทพ บาร์ - Live Brands" 
+                class="banner-image" 
+                fetchpriority="high" 
+                style="object-fit: cover;"
+                width="100%"
+            >
+        </picture>
         <div class="livebrands-description">
             <p>is at the heart of our mission to honor and elevate Thai culture in every possible way. From the ingredients in our cocktails to our decor and architecture, we celebrate the roots of Thai heritage, weaving its essence into an experience that’s vibrant, authentic, and modern. Since opening in 2015, we’ve aimed to revive and reimagine traditional Thai music—breathing new life into sounds that echo Thailand's cultural richness. Starting with just one band on day one, TEP BAR has since become the birthplace of five unique bands. Each is carefully assembled to embody and reinterpret Thai musical traditions in their own way. Performing on rotation, these ensembles are more than just entertainers; they are storytellers, transporting our guests to the essence of Thai heritage with every note. It’s our pride and privilege to help this music soar, evolving and resonating with new generations while rooted in tradition. At TEP BAR, we’re not just preserving Thai music; we’re creating a space where it lives, thrives, and inspires far into the future.</p>
             <br>
@@ -218,6 +230,13 @@
     @media (max-width: 640px) {
         .bands-container {
             grid-template-columns: 1fr; /* 👈 จอมือถือ: 1 คอลัมน์ */
+        }
+    }
+
+    @media (max-width: 425px) {
+        .banner-image {
+            height: 200px;
+            object-fit: contain;
         }
     }
 </style>
