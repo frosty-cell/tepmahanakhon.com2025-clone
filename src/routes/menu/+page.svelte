@@ -897,7 +897,7 @@
 		</section>
 
         {#if selectedCategory.description}
-			<p style="place-self: center; margin: 1rem 0; font-size: 1.1rem;">{selectedCategory.description}</p>
+			<p style="width: 100%; text-align: center; margin: 1rem 5px; font-size: 1.1rem;">{selectedCategory.description}</p>
 		{/if}
         <hr>
 	{/if}
