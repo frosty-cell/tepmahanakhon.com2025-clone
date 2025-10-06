@@ -6,7 +6,7 @@
 	// --- Type Definitions ---
 	type MenuItem = {
 		name_th: string;
-		name_en: string;
+		name_en?: string;
 		description: string;
 		price: number;
 		image: string;
@@ -649,7 +649,7 @@
 		'beer-wine': [
 			{
 				name_th: 'MAKMAO WINE (Red)',
-				name_en: 'MAKMAO WINE (Red)',
+				name_en: undefined,
 				description: 'ไวน์แดง ไทย (สกลนคร), Mak Mao berry; เบอร์รี่และผลไม้สด | Red wine, Thailand (Sakon Nakhon); organic Mak Mao berry – fresh fruit notes & berry',
 				price: 1400,
 				image: '/images/menu/6/BEER_WINE - MAKMAO WINE (Red).avif',
@@ -657,7 +657,7 @@
 			},
 			{
 				name_th: 'THONGKHAM ESTATE (Red)',
-				name_en: 'THONGKham ESTATE (Red)',
+				name_en: undefined,
 				description: 'ไวน์แดงไทย (เชียงราย)ทองคำ เอสเตท ปิโนต์ นัวร์ 2022 — เชอร์รี่ ราสเบอร์รี่ วานิลลา โอ๊ค | Red Wine Thailand (Chiang Rai) Thongkham Estate Pinot Noir 2022',
 				price: 1500,
 				image: '/images/menu/6/BEER_WINE - THONGKHAM ESTATE (Red).avif',
@@ -665,7 +665,7 @@
 			},
 			{
 				name_th: 'GRANMONTE SAKUNA (Rosé)',
-				name_en: 'GRANMONTE SAKUNA (Rosé)',
+				name_en: undefined,
 				description: 'ไวน์โรเซ่ไทย (เขาใหญ่)กรามอนเต้ สกุณา โรเซ่ — สีชมพูใสเบอร์รี่ รสนุ่ม หวานบาง สดชื่น | Rosé Wine Thailand (Khao Yai) GranMonte Sakuna Rosé',
 				price: 1500,
 				image: '/images/menu/6/BEER_WINE - GRANMONTE SAKUNA (Rosé).avif',
@@ -673,7 +673,7 @@
 			},
 			{
 				name_th: 'LAMADOR (Red)',
-				name_en: 'LAMADOR (Red)',
+				name_en: undefined,
 				description: 'ไวน์แดง ชิลี, Merlot 2019; ผลไม้แดง & ดอกไวโอเล็ต | Red wine, Chile; Merlot 2019 – red fruit & violet floral notes',
 				price: 1500,
 				image: '/images/menu/6/BEER_WINE - LAMADOR (Red).avif',
@@ -681,7 +681,7 @@
 			},
 			{
 				name_th: 'FINIMONDO (Red)',
-				name_en: 'FINIMONDO (Red)',
+				name_en: undefined,
 				description: 'ไวน์แดง อิตาลี, Nero d’Avola & Syrah; เบอร์รี่ ยาสูบ เครื่องเทศ | Red wine, Italy; Nero d’Avola & Syrah – intense berry, tobacco & spice',
 				price: 2000,
 				image: '/images/menu/6/BEER_WINE - FINIMONDO (Red).avif',
@@ -689,7 +689,7 @@
 			},
 			{
 				name_th: 'GRANMONTE VIOGNIER (White)',
-				name_en: 'GRANMONTE VIOGNIER (White)',
+				name_en: undefined,
 				description: 'ไวน์ขาวไทย (เขาใหญ่)กรามอนเต้ วิอองเย่ 2024 — ดอกไม้เมืองร้อน แร่ธาตุ โอ๊ค | White Wine Thailand (Khao Yai) GranMonte Viognier 2024',
 				price: 1500,
 				image: '/images/menu/6/BEER_WINE - GRANMONTE VIOGNIER (White).avif',
@@ -697,7 +697,7 @@
 			},
 			{
 				name_th: 'PÃ ROAD (White)',
-				name_en: 'PÃ ROAD (White)',
+				name_en: undefined,
 				description: 'ไวน์ขาว นิวซีแลนด์ (Marlborough), Sauvignon Blanc 2023; ดอกไม้ ซิตรัส และเครื่องเทศ | White wine, New Zealand (Marlborough); Sauvignon Blanc 2023',
 				price: 1800,
 				image: '/images/menu/6/BEER_WINE - PÃ ROAD (White).avif',
@@ -705,7 +705,7 @@
 			},
 			{
 				name_th: '7 CASINE (Sparkling)',
-				name_en: '7 CASINE (Sparkling)',
+				name_en: undefined,
 				description: 'ไวน์ขาว อิตาลี, Prosecco DOC; เบา ดราย ฟองนุ่ม | White wine, Italy; Prosecco DOC – light, dry & fine bubbles',
 				price: 1600,
 				image: '/images/menu/6/BEER_WINE - 7 CASINE (Sparkling).avif',
@@ -925,7 +925,10 @@
 					<div>
 						<img src={item.image} alt={item.name_th} />
 						<h5 style="font-size: 18px; font-weight: 100;">
-							★ {item.name_th} | {item.name_en}
+							★ {item.name_th} 
+							{#if item.name_en}
+								| {item.name_en}
+							{/if}
 						</h5>
 					</div>
 					<div>
